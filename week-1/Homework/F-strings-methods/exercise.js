@@ -1,3 +1,5 @@
 // Start by creating a variable `message`
-
-console.log(message);
+const message = "Manuel";
+console.log(
+	`My name is ${message} and my name is ${message.length} characters long`
+);
