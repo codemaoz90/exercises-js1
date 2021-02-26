@@ -5,7 +5,37 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(number) {
+	if (number < 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function isBetween5and10(number) {
+	if (number >= 5 && number <= 10) {
+		return true;
+	} else {
+		return false;
+	}
+}
+function isShortName(name) {
+	if (name.indexOf(" ") === 1) {
+		return false;
+	} else {
+		return true;
+	}
+}
+function startsWithD(name) {
+	if (name.startsWith("D")) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+console.log("Daniel".indexOf(" "));
 
 /* 
   DO NOT EDIT BELOW THIS LINE

@@ -8,8 +8,13 @@
 
 let n = 10;
 
-function sumTillNum(num){
+function sumTillNum(num) {
 	//your code here
+	let suma = 0;
+	for (let num = 0; num <= 10; num++) {
+		suma += num;
+	}
+	return suma;
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
