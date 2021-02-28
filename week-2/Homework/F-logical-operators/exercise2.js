@@ -21,7 +21,7 @@ function isBetween5and10(number) {
 	}
 }
 function isShortName(name) {
-	if (name.indexOf(" ") === 1) {
+	if (name.indexOf(" ") !== -1) {
 		return false;
 	} else {
 		return true;
