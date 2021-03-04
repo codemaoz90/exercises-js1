@@ -3,3 +3,5 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
+const numbersMult = numbers.map((el) => el * 100);
+console.log(numbersMult);
