@@ -22,12 +22,11 @@ function sortAges(arr) {
 	}
 
 	for (let i = 0; i < resultado.length; i++) {
-		for (let j = i; j < i + 1; j++) {
+		for (let j = 0; j < resultado.length; j++) {
 			if (resultado[j] > resultado[j + 1]) {
-				const resultadoLeft = resultado[j + 1];
-				const resultadoRight = resultado[j];
-				resultado[i] = resultadoLeft;
-				resultado[i + 1] = resultadoRight;
+				let temp = resultado[j];
+				resultado[j] = resultado[j + 1];
+				resultado[j + 1] = temp;
 			}
 		}
 	}
